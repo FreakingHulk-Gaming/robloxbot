@@ -19,7 +19,7 @@
     "request": "^2.83.0",
     "snekfetch": "^3.5.3",
     "enmap": "^0.4.2",
-    "enmap-level": "^1.0.0"
+    "enmap-level": "^1.0.0",
     "roblox-js": "^4.0.2"
   }
 }
