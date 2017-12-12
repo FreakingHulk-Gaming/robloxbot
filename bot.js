@@ -3,7 +3,7 @@ const dcord = require('discord.js');
 const bot = new dcord.Client();
 const rbx = require('roblox-js')
 
-bot.on("ready" => {
+bot.on("ready", () => {
   console.log("Rankerup v1.0 Loaded!")
   bot.user.setGame("r!help | Rankerup v1.0")
 })
