@@ -8,7 +8,7 @@ bot.on("ready", () => {
   bot.user.setGame("r!help | Rankerup v1.0")
 })
 
-bot.on("message", message => {
+bot.on("message", (message) => {
   if message.content == prefix + "rankup" {
   let member = message.mentions.members.first();
   let role = message.mentions.roles.first();
